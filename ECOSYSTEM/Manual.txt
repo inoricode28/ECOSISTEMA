@@ -1,0 +1,78 @@
+Manual Del Ecosistema
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+========================================================================================================================================================
+--------------------------------------------------------------->PASO 1<---------------------------------------------------------------------------------
+--> Crearemos las Carpetas del Ecosistema
+--> mkdir apps\web apps\desktop apps\mobile packages\shared packages\api
+
+========================================================================================================================================================
+--------------------------------------------------------------->PASO 2<---------------------------------------------------------------------------------
+--> Iniciaremos un poryecto en Node en la raiz
+--> npm init -y
+
+========================================================================================================================================================
+--------------------------------------------------------------->PASO 3<---------------------------------------------------------------------------------
+--> Crearemos el archivo iniciar.bat en la raiz
+--> touch iniciar.bat
+
+========================================================================================================================================================
+--------------------------------------------------------------->PASO 4<---------------------------------------------------------------------------------
+--> Iniciaremos creando el proyecto para web en React Vite, para ellos ingresamos a la carpeta apps
+--> npm create vite@latest web
+--> cd web
+--> npm install
+--> rm -R gitignore README.md  //Eliminare los archivos .gitignore y README.md 
+--> npm run dev -- --host 0.0.0.0 // Para probrar
+--> En el Archivo packages.json Agregamos la siguiente linea "dev": "vite --host 0.0.0.0", 
+--> npm run dev // Estara con la nueva modificacion
+--> Ruta donde se encuentra ECOSYSTEM/apps/web
+
+---------------------------------------------------------------> NOTA <----------------------------------------------------------------------------------
+Debemos modificar el archivo vite.config.ts  en la siguiente ruta ECOSYSTEM\apps\web\vite.config.ts
+Cuando se haga el comando de contruccion los archivos den ser enviando al al ruta en mencion "../../apps/mobile/CordovaApp/www"
+
+
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react-swc'
+
+// https://vite.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  build: {
+    outDir: '../../apps/mobile/CordovaApp/www',
+  },
+})
+
+--> npm run build // Permitira la contruccion del archivo web
+
+
+========================================================================================================================================================
+--------------------------------------------------------------->PASO 5<---------------------------------------------------------------------------------
+--> Crearemos el proyecto Crodova en la carpeta mobile
+--> cordova create CordovaApp
+--> rm -R gitignore  //Eliminare el archivo .gitignore 
+--> cordova platform add android
+--> cordova build android   <-- Construye la Aplicacion
+--> cordova run android     <-- Instala la aplicacion en el celular
+--> cordova emulate android <-- Emularlo en el Android Estudio
+--> cordova emulate ios
+--> cordova run ios
+
+========================================================================================================================================================
+--------------------------------------------------------------->PASO 6<---------------------------------------------------------------------------------
+--> Crearemos el Archivo de Desktop con Electron main.js
+--> npm install electron --save-dev //Instalar la dependencia en la raiz ECOSYSTEM/package.json
+--> npm install electron-builder -D//Instalar la dependencia en la raiz ECOSYSTEM/package.json
+--> npm install http-server --save-dev //Para poder levantar un servidor ECOSYSTEM/package.json
+       
+--> Ruta donde se encuentra ECOSYSTEM/apps/desktop/main.js
+========================================================================================================================================================
+--------------------------------------------------------------->PASO 7<---------------------------------------------------------------------------------
+--> Intalacion de dependencias en la Raiz para el packages.json
+--> npm install vite // vite ECOSYSTEM/package.json
+--> npm install concurrently -D // Para las concurrencias ECOSYSTEM/package.json
+
+
+
+

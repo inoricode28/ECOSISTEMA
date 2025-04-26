@@ -1,0 +1,24 @@
+{
+  "name": "ecosistema",
+  "version": "1.0.0",
+  "description": "ECOSISTEMA EN ANDROID FLUTTER Y CORDOVA CON NODE SPRING WEB API",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cd apps\\web && vite --host 0.0.0.0",
+    "build": "cd apps\\web && tsc -b && vite build",
+    "electron": "npm run build && electron ./apps/desktop/main.js",
+    "dev-electron": "electron ./apps/desktop/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "electron": "^35.2.1",
+    "electron-builder": "^26.0.12",
+    "http-server": "^14.1.1"
+  },
+  "dependencies": {
+    "vite": "^6.3.3"
+  }
+}
