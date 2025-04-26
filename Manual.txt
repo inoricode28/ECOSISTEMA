@@ -31,3 +31,4 @@ Manual Del Ecosistema
 --> Crearemos el proyecto Crodova en la carpeta mobile
 --> cordova create CordovaApp
 --> cordova platform add android
+--> 
