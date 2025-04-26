@@ -1,3 +1,7 @@
+# --------------------------------------------
+# Rutas específicas de apps/web
+# --------------------------------------------
+
 # Logs
 logs
 *.log
@@ -8,10 +12,10 @@ pnpm-debug.log*
 lerna-debug.log*
 
 # Dependencias y builds
-node_modules
-dist
-dist-ssr
-*.local
+apps/web/node_modules/   # Ignora la carpeta node_modules de web
+apps/web/dist
+apps/web/dist-ssr
+apps/web/*.local
 
 # Editor
 .vscode/*
@@ -27,7 +31,6 @@ dist-ssr
 # --------------------------------------------
 # Rutas específicas de apps/web
 # --------------------------------------------
-apps/web/node_modules   # Ignora la carpeta node_modules de web
 apps/web/dist/          # Ignora la carpeta dist de web
 apps/web/.env.local     # Ignora variables de entorno locales
 apps/web/.cache/        # Si usas herramientas como Gatsby
