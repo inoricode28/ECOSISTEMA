@@ -12,7 +12,7 @@ pnpm-debug.log*
 lerna-debug.log*
 
 # Dependencias y builds
-apps/web/node_modules/   # Ignora la carpeta node_modules de web
+apps/web/node_modules   # Ignora la carpeta node_modules de web
 apps/web/dist
 apps/web/dist-ssr
 apps/web/*.local
