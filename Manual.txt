@@ -22,4 +22,12 @@ Manual Del Ecosistema
 --> npm create vite@latest web
 --> cd web
 --> npm install
---> npm run dev
+--> rm -R gitignore README.md  //Eliminare los archivos .gitignore y README.md 
+--> npm run dev -- --host 0.0.0.0
+--> Ruta donde se encuentra ECOSYSTEM/apps/web
+
+========================================================================================================================================================
+--------------------------------------------------------------->PASO 5<---------------------------------------------------------------------------------
+--> Crearemos el proyecto Crodova en la carpeta mobile
+--> cordova create CordovaApp
+--> cordova platform add android
