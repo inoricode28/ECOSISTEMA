@@ -81,4 +81,81 @@ ECOSYSTEM/apps/mobile/CordovaApp/platforms/
 # Rutas específicas de apps/mobile/ReactNativeApp
 # ------------------------------------------------
 
+# OSX
+#
+ECOSISTEMA\ECOSYSTEM\apps\mobile\ReactNativeApp\.DS_Store
+
+# Xcode
+#
+ECOSISTEMA\ECOSYSTEM\apps\mobile\ReactNativeApp\build\
+ECOSISTEMA\ECOSYSTEM\apps\mobile\ReactNativeApp\*.pbxuser
+ECOSISTEMA\ECOSYSTEM\apps\mobile\ReactNativeApp\!default.pbxuser
+ECOSISTEMA\ECOSYSTEM\apps\mobile\ReactNativeApp\*.mode1v3
+ECOSISTEMA\ECOSYSTEM\apps\mobile\ReactNativeApp\!default.mode1v3
+ECOSISTEMA\ECOSYSTEM\apps\mobile\ReactNativeApp\*.mode2v3
+ECOSISTEMA\ECOSYSTEM\apps\mobile\ReactNativeApp\!default.mode2v3
+ECOSISTEMA\ECOSYSTEM\apps\mobile\ReactNativeApp\*.perspectivev3
+ECOSISTEMA\ECOSYSTEM\apps\mobile\ReactNativeApp\!default.perspectivev3
+ECOSISTEMA\ECOSYSTEM\apps\mobile\ReactNativeApp\xcuserdata
+ECOSISTEMA\ECOSYSTEM\apps\mobile\ReactNativeApp\*.xccheckout
+ECOSISTEMA\ECOSYSTEM\apps\mobile\ReactNativeApp\*.moved-aside
+ECOSISTEMA\ECOSYSTEM\apps\mobile\ReactNativeApp\DerivedData
+ECOSISTEMA\ECOSYSTEM\apps\mobile\ReactNativeApp\*.hmap
+ECOSISTEMA\ECOSYSTEM\apps\mobile\ReactNativeApp\*.ipa
+ECOSISTEMA\ECOSYSTEM\apps\mobile\ReactNativeApp\*.xcuserstate
+ECOSISTEMA\ECOSYSTEM\apps\mobile\ReactNativeApp\**\.xcode.env.local
+
+# Android/IntelliJ
+#
+ECOSISTEMA\ECOSYSTEM\apps\mobile\ReactNativeApp\build\
+ECOSISTEMA\ECOSYSTEM\apps\mobile\ReactNativeApp\.idea
+ECOSISTEMA\ECOSYSTEM\apps\mobile\ReactNativeApp\.gradle
+ECOSISTEMA\ECOSYSTEM\apps\mobile\ReactNativeApp\local.properties
+ECOSISTEMA\ECOSYSTEM\apps\mobile\ReactNativeApp\*.iml
+ECOSISTEMA\ECOSYSTEM\apps\mobile\ReactNativeApp\*.hprof
+ECOSISTEMA\ECOSYSTEM\apps\mobile\ReactNativeApp\.cxx\
+ECOSISTEMA\ECOSYSTEM\apps\mobile\ReactNativeApp\*.keystore
+ECOSISTEMA\ECOSYSTEM\apps\mobile\ReactNativeApp\!debug.keystore
+ECOSISTEMA\ECOSYSTEM\apps\mobile\ReactNativeApp\.kotlin\
+
+# node.js
+#
+ECOSISTEMA\ECOSYSTEM\apps\mobile\ReactNativeApp\node_modules\
+ECOSISTEMA\ECOSYSTEM\apps\mobile\ReactNativeApp\npm-debug.log
+ECOSISTEMA\ECOSYSTEM\apps\mobile\ReactNativeApp\yarn-error.log
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+ECOSISTEMA\ECOSYSTEM\apps\mobile\ReactNativeApp\**/fastlane/report.xml
+ECOSISTEMA\ECOSYSTEM\apps\mobile\ReactNativeApp\**/fastlane/Preview.html
+ECOSISTEMA\ECOSYSTEM\apps\mobile\ReactNativeApp\**/fastlane/screenshots
+ECOSISTEMA\ECOSYSTEM\apps\mobile\ReactNativeApp\**/fastlane/test_output
+
+# Bundle artifact
+ECOSISTEMA\ECOSYSTEM\apps\mobile\ReactNativeApp\*.jsbundle
+
+# Ruby / CocoaPods
+ECOSISTEMA\ECOSYSTEM\apps\mobile\ReactNativeApp\**/Pods/
+ECOSISTEMA\ECOSYSTEM\apps\mobile\ReactNativeApp\vendor/bundle/
+
+# Temporary files created by Metro to check the health of the file watcher
+ECOSISTEMA\ECOSYSTEM\apps\mobile\ReactNativeApp\.metro-health-check*
+
+# testing
+ECOSISTEMA\ECOSYSTEM\apps\mobile\ReactNativeApp\coverage
+
+# Yarn
+ECOSISTEMA\ECOSYSTEM\apps\mobile\ReactNativeApp\.yarn/*
+ECOSISTEMA\ECOSYSTEM\apps\mobile\ReactNativeApp\!.yarn/patches
+ECOSISTEMA\ECOSYSTEM\apps\mobile\ReactNativeApp\!.yarn/plugins
+ECOSISTEMA\ECOSYSTEM\apps\mobile\ReactNativeApp\!.yarn/releases
+ECOSISTEMA\ECOSYSTEM\apps\mobile\ReactNativeApp\!.yarn/sdks
+ECOSISTEMA\ECOSYSTEM\apps\mobile\ReactNativeApp\!.yarn/versions
+
+
 
