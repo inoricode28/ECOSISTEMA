@@ -8,7 +8,7 @@ Manual Del Ecosistema
 
 ========================================================================================================================================================
 --------------------------------------------------------------->PASO 2<---------------------------------------------------------------------------------
---> Iniciaremos un poryecto en Node en la raiz
+--> Iniciaremos un proyecto en Node en la raiz
 --> npm init -y
 
 ========================================================================================================================================================
@@ -72,6 +72,14 @@ export default defineConfig({
 --> Intalacion de dependencias en la Raiz para el packages.json
 --> npm install vite // vite ECOSYSTEM/package.json
 --> npm install concurrently -D // Para las concurrencias ECOSYSTEM/package.json
+
+========================================================================================================================================================
+--------------------------------------------------------------->PASO 8<---------------------------------------------------------------------------------
+--Crearemos el Proyecto de React Native en a carpeta mobile
+--> npx @react-native-community/cli init ReactNativeApp
+
+
+
 
 
 

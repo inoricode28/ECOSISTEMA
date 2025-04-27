@@ -7,7 +7,10 @@
     "dev": "cd apps\\web && vite --host 0.0.0.0",
     "build": "cd apps\\web && tsc -b && vite build",
     "electron": "npm run build && electron ./apps/desktop/main.js",
-    "dev-electron": "electron ./apps/desktop/main.js"
+    "dev-electron": "electron ./apps/desktop/main.js",
+    "cordova-android": "cd apps\\mobile\\CordovaApp && cordova build android",
+    "dev-cordova": "cd apps\\mobile\\CordovaApp && cordova run android",
+    "cordova-all": "npm run cordova-android && npm run dev-cordova"
   },
   "keywords": [],
   "author": "",
