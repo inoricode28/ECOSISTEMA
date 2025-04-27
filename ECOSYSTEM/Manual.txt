@@ -77,6 +77,7 @@ export default defineConfig({
 --------------------------------------------------------------->PASO 8<---------------------------------------------------------------------------------
 --Crearemos el Proyecto de React Native en a carpeta mobile
 --> npx @react-native-community/cli init ReactNativeApp
+-->
 
 
 
